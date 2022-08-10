@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class App {
 
-    String CONFIRM = "yes";
-    String REJECT = "no";
-    String WRONGSELECTMESSAGE = "Wrong select, try again";
+    final String CONFIRM = "yes";
+    final String REJECT = "no";
+    final String WRONGSELECTMESSAGE = "Wrong select, try again";
 
     private void showStartMessage() {
         System.out.println("Hello, this is my calculator!");
