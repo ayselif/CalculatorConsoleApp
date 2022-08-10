@@ -5,6 +5,7 @@ public class App {
     String CONFIRM = "yes";
     String REJECT = "no";
     String WRONGSELECTMESSAGE = "Wrong select, try again";
+
     private void showStartMessage() {
         System.out.println("Hello, this is my calculator!");
     }
@@ -26,6 +27,7 @@ public class App {
             start();
         }
     }
+    
     private char getTargetOperator() {
         System.out.println("To add: type a, To substract: type s, To multiply: type m, To divide: type d");
         System.out.println("Please select the operand");
